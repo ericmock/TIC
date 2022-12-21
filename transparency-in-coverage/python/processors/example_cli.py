@@ -27,8 +27,10 @@ if args.npis:
 else:
     npi_set = None
 
+import asyncio
+
 try:
-    flatten_mrf(
+    asyncio.run(flatten_mrf(
         loc = url,
         out_dir = out_dir,
         code_set = code_set,

@@ -7,11 +7,8 @@
 #
 import argparse
 import logging
-import sys
-import time
 
 import ijson
-from tqdm import tqdm
 
 from mrfutils import InvalidMRF, MRFOpen, MRFObjectBuilder
 
