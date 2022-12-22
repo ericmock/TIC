@@ -30,7 +30,7 @@ else:
 import asyncio
 
 try:
-    asyncio.run(flatten_mrf(
+    flatten_mrf(
         loc = url,
         out_dir = out_dir,
         code_set = code_set,
