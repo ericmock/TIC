@@ -4,7 +4,7 @@ from mrfutils import data_import, flatten_mrf, InvalidMRF
 
 logging.basicConfig()
 log = logging.getLogger('mrfutils')
-log.setLevel(logging.DEBUG)
+log.setLevel(logging.INFO)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-u', '--url')
